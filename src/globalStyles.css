@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrap{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: black;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 15px 40px;
+  margin: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Century Gothic;
+  font-weight: 700;
+  color: aquamarine;
+  /* max-width: 95px; */
+}
+.btn:hover {
+    text-decoration: none;
+    transition: all .8s;
+    font-weight: bolder;
+    border: 3px solid black;
+    color: black;
+    background-color: aquamarine;
+}
+.btn:active {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.flex_gorizont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+} 
+.test_wrap{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.form{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.vertical{
+display: flex;
+flex-direction: column;
+}
+
+.gorizontal{
+display: flex;
+flex-direction: row;
+}
+
+
